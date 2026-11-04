@@ -1,0 +1,17 @@
+@font-face { font-family: "Atkinson"; src: url("fonts/AtkinsonHyperlegible-Regular.ttf") format("truetype"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Atkinson"; src: url("fonts/AtkinsonHyperlegible-Bold.ttf") format("truetype"); font-weight: 700; font-display: swap; }
+
+:root { --ink: #1d1b19; --paper: #fbf6ea; --card: #fffdf7; --muted: #4a453f; --yellow: #f4cf47; --blue: #5aa0d8; }
+
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 18px/1.55 "Atkinson", system-ui, sans-serif; }
+main { max-width: 640px; margin: 0 auto; padding: 40px 20px 64px; }
+h1 { font-size: 40px; line-height: 1.1; margin: 0 0 6px; }
+h1 span { background: linear-gradient(transparent 55%, var(--yellow) 55%); padding: 0 4px; }
+h2 { font-size: 22px; margin: 28px 0 4px; }
+p, li { color: var(--muted); }
+.sub { margin: 0 0 24px; }
+.card { background: var(--card); border: 2.6px solid var(--ink); border-radius: 18px 12px 20px 11px; box-shadow: 2px 3px 0 var(--ink); padding: 4px 20px 16px; margin-top: 20px; }
+a { color: var(--ink); text-decoration-thickness: 2px; text-underline-offset: 4px; }
+nav { display: flex; gap: 20px; margin-top: 36px; }
+footer { margin-top: 40px; font-size: 15px; color: var(--muted); }
